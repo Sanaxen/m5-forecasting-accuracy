@@ -1,6 +1,4 @@
 # m5-forecasting-accuracy  
-[Japanese “ú–{Œê.](https://github.com/Sanaxen/m5-forecasting-accuracy/blob/master/README_jp.md).
-
 <img src="./images/image1.png"/>  
 Image Citation.https://www.kaggle.com/competitions/m5-forecasting-accuracy  
 
