@@ -62,3 +62,8 @@ early_stopping_round = 2000
 スコアが1.0以下に絞ると。
 <img src="./images/image5.png"/>  
  
+ ```
+#[4482]  train-rmse:2.258301     eval-rmse:2.211731 score 0.57637
+#Stopping. Best iteration:
+#[2482]  train-rmse:2.318164     eval-rmse:2.193691
+```
