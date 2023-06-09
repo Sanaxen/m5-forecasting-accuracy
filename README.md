@@ -5,6 +5,8 @@
 Image Citation.https://www.kaggle.com/competitions/m5-forecasting-accuracy  
 
 Kaggle Competition: M5 Forecasting - Accuracy I tried it.  
+
+## overview
 This is a hyper-multivariate time series forecasting competition using Walmart sales volume data from 2011-2016.
 The competition was held from March to June 2020 and included 5558 teams from approximately 101 countries.
 The competition ran from March to June 2020 and attracted 5558 teams from 101 countries, including the United States (17%), Japan (17%), India (10%), China (10%), Russia (6%), and the remaining 40% from 96 other countries.  
@@ -34,6 +36,7 @@ Based on 5 years of sales data from January 29, 2011 to April 24, 2016, we forec
 **private (Evaluation Phase)** 
 The Evaluation Phase will begin on June 1, 2020, and the sales volume from April 25 to May 22, 2016 will be made public to forecast the sales volume for the next four weeks (May 23 to June 19, 2016).  
 
+We used the provided data as-is to make predictions.  
 Results are as follows.  
 <img src="./images/image2.png"/>  
 
