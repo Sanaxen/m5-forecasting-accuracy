@@ -64,3 +64,8 @@ Results are as follows.
 If the score is narrowed down to 1.0 or less.  
 <img src="./images/image5.png"/>  
 
+```
+#[4482]  train-rmse:2.258301     eval-rmse:2.211731 score 0.57637
+#Stopping. Best iteration:
+#[2482]  train-rmse:2.318164     eval-rmse:2.193691
+```
