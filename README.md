@@ -18,7 +18,7 @@ The csv file is
 Dates of religious, sporting, and other events, and SNAP (federal Supplemental Nutrition Assistance Program) availability.
 *SNAP The largest federal nutrition assistance program, providing benefits to eligible low-income individuals and families through electronic benefit cards.
 
-**sell_prices.csv**: Daily sales prices by store and by product.  
+**sell_prices.csv** - Daily sales prices by store and by product.  
 **sales_train_validation.csv** - Historical daily sales unit data by product and store  
 **sales_train_evaluation.csv** - historical daily sales unit data by product and store  
 **sample_submission.csv** - Template for submission  
