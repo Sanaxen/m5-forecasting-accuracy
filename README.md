@@ -4,7 +4,7 @@
 <img src="./images/image1.png"/>  
 Image Citation.https://www.kaggle.com/competitions/m5-forecasting-accuracy  
 
-Kaggle Competition: M5 Forecasting ? Accuracy I tried it.  
+Kaggle Competition: M5 Forecasting - Accuracy I tried it.  
 This is a hyper-multivariate time series forecasting competition using Walmart sales volume data from 2011-2016.
 The competition was held from March to June 2020 and included 5558 teams from approximately 101 countries.
 The competition ran from March to June 2020 and attracted 5558 teams from 101 countries, including the United States (17%), Japan (17%), India (10%), China (10%), Russia (6%), and the remaining 40% from 96 other countries.  
