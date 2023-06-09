@@ -26,7 +26,7 @@ Dates of religious, sporting, and other events, and SNAP (federal Supplemental N
 We decided not to use sales_train_validation.csv because the competition is closed.
 This is because the answer (sales_train_evaluation.csv) has already been published.  
 
-The competition is divided into two phases: public (Validation Phase) and private (Evaluation Phase). The public phase is the evaluation phase, where the public correct answer is published one month before the end of the competition, and the private phase is the evaluation phase, where the correct answer is predicted for another four weeks (28 days).
+The contest is divided into two phases: public (verification phase) and private (evaluation phase). The reveal phase was the evaluation phase, and the published correct answers were published one month before the end of the competition. The private phase is the evaluation phase, and if correctly evaluated, we will conduct predictions for an additional 4 weeks (28 days).
 
 **public (Validation Phase)**  
 Based on 5 years of sales data from January 29, 2011 to April 24, 2016, we forecast sales (sales volume) for the next 4 weeks (April 25 to May 22, 2016).  
