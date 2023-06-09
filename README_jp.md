@@ -1,8 +1,9 @@
-Kaggleコンペ：M5 Forecasting ? Accuracy　やってみました。
+Kaggleコンペ：M5 Forecasting - Accuracy　やってみました。
 
 <img src="./images/image1.png"/>  
 画像引用）https://www.kaggle.com/competitions/m5-forecasting-accuracy
 
+**概要**
 Walmartの2011年?2016年の売上個数データを使って販売数量を予測コンペで超多変量時系列予測になります。
 2020年3月から6月に開催され約１０１ヵ国５５５８のチームが参加。
 米国 (17%)、日本 (17%)、インド (10%)、中国 (10%)、ロシア (6%)、残りの 40% はその他の 96 か国からの参加ということらしいです。
@@ -33,6 +34,19 @@ Walmartの2011年?2016年の売上個数データを使って販売数量を予�
 ** private（Evaluation Phase）**  
 2020年6月1日からEvaluation Phaseとなり、2016年4月25日から5月22日の販売数量が公開され、後の4週間（2016年5月23日から6月19日）の販売数量を予測します。
 
+提供されたデータをそのまま使用して予測しました。  
+**xgboost**を使いました。  
+```
+booster = "gbtree"  
+tree_method='hist'  
+objective = "reg:tweedie"  
+eta = 0.02  
+min_child_weight = 1  
+gamma = 0  
+max_depth=7  
+num_iterations = 10000  
+early_stopping_round = 2000  
+```
 結果は以下のようになりました。  
 <img src="./images/image2.png"/>  
 
@@ -48,3 +62,8 @@ Walmartの2011年?2016年の売上個数データを使って販売数量を予�
 スコアが1.0以下に絞ると。
 <img src="./images/image5.png"/>  
  
+ ```
+#[4482]  train-rmse:2.258301     eval-rmse:2.211731 score 0.57637
+#Stopping. Best iteration:
+#[2482]  train-rmse:2.318164     eval-rmse:2.193691
+```
