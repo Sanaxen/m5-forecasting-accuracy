@@ -1,7 +1,7 @@
 # m5-forecasting-accuracy  
 [Japanese 日本語.](https://github.com/Sanaxen/m5-forecasting-accuracy/blob/master/README_jp.md).
 
-<img src="./images/image1.png"/>  
+<img src="./images/image1en.png"/>  
 Image Citation.https://www.kaggle.com/competitions/m5-forecasting-accuracy  
 
 Kaggle Competition: M5 Forecasting - Accuracy I tried it.  
@@ -37,6 +37,19 @@ Based on 5 years of sales data from January 29, 2011 to April 24, 2016, we forec
 The Evaluation Phase will begin on June 1, 2020, and the sales volume from April 25 to May 22, 2016 will be made public to forecast the sales volume for the next four weeks (May 23 to June 19, 2016).  
 
 We used the provided data as-is to make predictions.  
+
+I used **xgboost**    
+```
+booster = "gbtree"  
+tree_method='hist'  
+objective = "reg:tweedie"  
+eta = 0.02  
+min_child_weight = 1  
+gamma = 0  
+max_depth=7  
+num_iterations = 10000  
+early_stopping_round = 2000  
+```
 Results are as follows.  
 <img src="./images/image2.png"/>  
 
